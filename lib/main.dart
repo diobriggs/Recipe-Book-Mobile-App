@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'DetailsScreen.dart';
 
 void main() {
-  runApp(RecipeBookApp());
+  runApp(const RecipeBookApp());
 }
 
 class RecipeBookApp extends StatelessWidget {
@@ -15,7 +15,7 @@ class RecipeBookApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
@@ -131,6 +131,57 @@ class HomeScreen extends StatelessWidget {
         '4. Simmer for 3 hours until tender, then reduce sauce for 5 minutes to thicken.',
       'image': 'assets/oxtail.jpg',
 
+    },
+    {
+      'name': 'Hamburger Soup',
+      'details':
+        'Ingredients:\n'
+        '• 1 ½ pounds ground beef\n'
+        '• 1 medium onion, finely chopped\n'
+        '• 3 (14.5 ounce) cans beef consomme\n'
+        '• 1 (28 ounce) can diced tomatoes\n'
+        '• 2 cups water\n'
+        '• 1 (10.75 ounce) can condensed tomato soup\n'
+        '• 4 carrots, finely chopped\n'
+        '• 3 stalks celery, finely chopped\n'
+        '• 4 tablespoons pearl barley\n'
+        '• ½ teaspoon dried thyme\n'
+        '• 1 bay leaf\n\n'
+        'Directions:\n'
+        '1. Turn on a multi-functional pressure cooker and select Saute function.\n'
+        '2. Cook and stir beef and onion until browned, 5 to 10 minutes.\n'
+        '3. Pour in beef consomme, tomatoes, water, and tomato soup.\n'
+        '4. Add carrots, celery, barley, thyme, and bay leaf.\n'
+        '5. Close and lock the lid. Select Soup function; set timer for 30 minutes.\n'
+        '6. Allow 10 to 15 minutes for pressure to build.\n'
+        '7. Release pressure using the natural-release method, about 10 minutes.',
+      'image': 'assets/hamburgersoup.jpg',
+    },
+    {
+      'name': 'Spicy Honey-Chipotle Salmon Bowl',
+      'details':
+        'Ingredients:\n'
+        '• 2 cups low-sodium chicken broth\n'
+        '• 1 teaspoon butter\n'
+        '• ½ cup brown rice, rinsed well\n'
+        '• 1 ½ cups chopped fresh green beans\n'
+        '• 1 medium sweet potato, chopped\n'
+        '• 1 tablespoon olive oil\n'
+        '• Salt and ground black pepper to taste\n'
+        '• 1 tablespoon honey\n'
+        '• 1 teaspoon ground dried chipotle pepper\n'
+        '• ½ teaspoon granulated garlic\n'
+        '• 2 (4 ounce) frozen salmon fillets with skin\n'
+        '• 1 tablespoon chopped toasted pecans\n\n'
+        'Directions:\n'
+        '1. Bring chicken broth and butter to a boil in a saucepan.\n'
+        '2. Add rinsed brown rice, cover, and simmer until rice is tender.\n'
+        '3. Preheat the oven to 400°F and line a baking sheet with parchment paper.\n'
+        '4. Toss green beans, sweet potato, olive oil, salt, and pepper.\n'
+        '5. Mix honey, chipotle pepper, garlic, and brush onto frozen salmon.\n'
+        '6. Roast salmon and vegetables for 30-35 minutes.\n'
+        '7. Serve over brown rice and sprinkle toasted pecans on top.',
+      'image': 'assets/salmonbowl.jpg',
     },
   ];
 

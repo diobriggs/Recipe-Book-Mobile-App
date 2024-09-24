@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class DetailsScreen extends StatelessWidget {
   final Map<String, String> recipe;
 
-  const DetailsScreen({Key? key, required this.recipe}) : super(key: key);
+  const DetailsScreen({super.key, required this.recipe});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class DetailsScreen extends StatelessWidget {
                     // Display the recipe details
                     Text(
                       recipe['details']!,
-                      style: TextStyle(fontSize: 16),
+                      style: const TextStyle(fontSize: 16),
                     ),
                   ],
                 ),
